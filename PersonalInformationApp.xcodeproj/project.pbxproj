@@ -1,0 +1,454 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6681E6F71C0691D100EBDA87 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681E6F61C0691D100EBDA87 /* AppDelegate.swift */; };
+		6681E6FC1C0691D100EBDA87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6681E6FA1C0691D100EBDA87 /* Main.storyboard */; };
+		6681E6FE1C0691D100EBDA87 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6681E6FD1C0691D100EBDA87 /* Images.xcassets */; };
+		6681E7011C0691D100EBDA87 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6681E6FF1C0691D100EBDA87 /* LaunchScreen.xib */; };
+		6681E70D1C0691D100EBDA87 /* PersonalInformationAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681E70C1C0691D100EBDA87 /* PersonalInformationAppTests.swift */; };
+		6681E7171C06926B00EBDA87 /* PersonalInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681E7161C06926B00EBDA87 /* PersonalInfoTableViewController.swift */; };
+		6681E7191C06928000EBDA87 /* PersonalInfoEditTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681E7181C06928000EBDA87 /* PersonalInfoEditTableViewController.swift */; };
+		6681E71B1C06930F00EBDA87 /* PersonalInfoService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6681E71A1C06930F00EBDA87 /* PersonalInfoService.swift */; };
+		66C257391C0C746D00CB38FA /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = 66C257381C0C746D00CB38FA /* Person.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6681E7071C0691D100EBDA87 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6681E6E91C0691D100EBDA87 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6681E6F01C0691D100EBDA87;
+			remoteInfo = PersonalInformationApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6681E6F11C0691D100EBDA87 /* PersonalInformationApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PersonalInformationApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6681E6F51C0691D100EBDA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6681E6F61C0691D100EBDA87 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		6681E6FB1C0691D100EBDA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		6681E6FD1C0691D100EBDA87 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		6681E7001C0691D100EBDA87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		6681E7061C0691D100EBDA87 /* PersonalInformationAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PersonalInformationAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6681E70B1C0691D100EBDA87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6681E70C1C0691D100EBDA87 /* PersonalInformationAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonalInformationAppTests.swift; sourceTree = "<group>"; };
+		6681E7161C06926B00EBDA87 /* PersonalInfoTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoTableViewController.swift; sourceTree = "<group>"; };
+		6681E7181C06928000EBDA87 /* PersonalInfoEditTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoEditTableViewController.swift; sourceTree = "<group>"; };
+		6681E71A1C06930F00EBDA87 /* PersonalInfoService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PersonalInfoService.swift; sourceTree = "<group>"; };
+		66C257381C0C746D00CB38FA /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6681E6EE1C0691D100EBDA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6681E7031C0691D100EBDA87 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6681E6E81C0691D100EBDA87 = {
+			isa = PBXGroup;
+			children = (
+				6681E6F31C0691D100EBDA87 /* PersonalInformationApp */,
+				6681E7091C0691D100EBDA87 /* PersonalInformationAppTests */,
+				6681E6F21C0691D100EBDA87 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6681E6F21C0691D100EBDA87 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6681E6F11C0691D100EBDA87 /* PersonalInformationApp.app */,
+				6681E7061C0691D100EBDA87 /* PersonalInformationAppTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6681E6F31C0691D100EBDA87 /* PersonalInformationApp */ = {
+			isa = PBXGroup;
+			children = (
+				6681E6F61C0691D100EBDA87 /* AppDelegate.swift */,
+				6681E6FA1C0691D100EBDA87 /* Main.storyboard */,
+				6681E6FD1C0691D100EBDA87 /* Images.xcassets */,
+				6681E6FF1C0691D100EBDA87 /* LaunchScreen.xib */,
+				6681E6F41C0691D100EBDA87 /* Supporting Files */,
+				6681E7161C06926B00EBDA87 /* PersonalInfoTableViewController.swift */,
+				6681E7181C06928000EBDA87 /* PersonalInfoEditTableViewController.swift */,
+				6681E71A1C06930F00EBDA87 /* PersonalInfoService.swift */,
+				66C257381C0C746D00CB38FA /* Person.swift */,
+			);
+			path = PersonalInformationApp;
+			sourceTree = "<group>";
+		};
+		6681E6F41C0691D100EBDA87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6681E6F51C0691D100EBDA87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6681E7091C0691D100EBDA87 /* PersonalInformationAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				6681E70C1C0691D100EBDA87 /* PersonalInformationAppTests.swift */,
+				6681E70A1C0691D100EBDA87 /* Supporting Files */,
+			);
+			path = PersonalInformationAppTests;
+			sourceTree = "<group>";
+		};
+		6681E70A1C0691D100EBDA87 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6681E70B1C0691D100EBDA87 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6681E6F01C0691D100EBDA87 /* PersonalInformationApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6681E7101C0691D100EBDA87 /* Build configuration list for PBXNativeTarget "PersonalInformationApp" */;
+			buildPhases = (
+				6681E6ED1C0691D100EBDA87 /* Sources */,
+				6681E6EE1C0691D100EBDA87 /* Frameworks */,
+				6681E6EF1C0691D100EBDA87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PersonalInformationApp;
+			productName = PersonalInformationApp;
+			productReference = 6681E6F11C0691D100EBDA87 /* PersonalInformationApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		6681E7051C0691D100EBDA87 /* PersonalInformationAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6681E7131C0691D100EBDA87 /* Build configuration list for PBXNativeTarget "PersonalInformationAppTests" */;
+			buildPhases = (
+				6681E7021C0691D100EBDA87 /* Sources */,
+				6681E7031C0691D100EBDA87 /* Frameworks */,
+				6681E7041C0691D100EBDA87 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6681E7081C0691D100EBDA87 /* PBXTargetDependency */,
+			);
+			name = PersonalInformationAppTests;
+			productName = PersonalInformationAppTests;
+			productReference = 6681E7061C0691D100EBDA87 /* PersonalInformationAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6681E6E91C0691D100EBDA87 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0800;
+				ORGANIZATIONNAME = "川崎 隆介";
+				TargetAttributes = {
+					6681E6F01C0691D100EBDA87 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
+					};
+					6681E7051C0691D100EBDA87 = {
+						CreatedOnToolsVersion = 6.4;
+						LastSwiftMigration = 0800;
+						TestTargetID = 6681E6F01C0691D100EBDA87;
+					};
+				};
+			};
+			buildConfigurationList = 6681E6EC1C0691D100EBDA87 /* Build configuration list for PBXProject "PersonalInformationApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 6681E6E81C0691D100EBDA87;
+			productRefGroup = 6681E6F21C0691D100EBDA87 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6681E6F01C0691D100EBDA87 /* PersonalInformationApp */,
+				6681E7051C0691D100EBDA87 /* PersonalInformationAppTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6681E6EF1C0691D100EBDA87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6681E6FC1C0691D100EBDA87 /* Main.storyboard in Resources */,
+				6681E7011C0691D100EBDA87 /* LaunchScreen.xib in Resources */,
+				6681E6FE1C0691D100EBDA87 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6681E7041C0691D100EBDA87 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6681E6ED1C0691D100EBDA87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				66C257391C0C746D00CB38FA /* Person.swift in Sources */,
+				6681E71B1C06930F00EBDA87 /* PersonalInfoService.swift in Sources */,
+				6681E7191C06928000EBDA87 /* PersonalInfoEditTableViewController.swift in Sources */,
+				6681E7171C06926B00EBDA87 /* PersonalInfoTableViewController.swift in Sources */,
+				6681E6F71C0691D100EBDA87 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6681E7021C0691D100EBDA87 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6681E70D1C0691D100EBDA87 /* PersonalInformationAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6681E7081C0691D100EBDA87 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6681E6F01C0691D100EBDA87 /* PersonalInformationApp */;
+			targetProxy = 6681E7071C0691D100EBDA87 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6681E6FA1C0691D100EBDA87 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6681E6FB1C0691D100EBDA87 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		6681E6FF1C0691D100EBDA87 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6681E7001C0691D100EBDA87 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6681E70E1C0691D100EBDA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6681E70F1C0691D100EBDA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6681E7111C0691D100EBDA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonalInformationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codable.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		6681E7121C0691D100EBDA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = PersonalInformationApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codable.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		6681E7141C0691D100EBDA87 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersonalInformationAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codable.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonalInformationApp.app/PersonalInformationApp";
+			};
+			name = Debug;
+		};
+		6681E7151C0691D100EBDA87 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = PersonalInformationAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.codable.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PersonalInformationApp.app/PersonalInformationApp";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6681E6EC1C0691D100EBDA87 /* Build configuration list for PBXProject "PersonalInformationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6681E70E1C0691D100EBDA87 /* Debug */,
+				6681E70F1C0691D100EBDA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6681E7101C0691D100EBDA87 /* Build configuration list for PBXNativeTarget "PersonalInformationApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6681E7111C0691D100EBDA87 /* Debug */,
+				6681E7121C0691D100EBDA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6681E7131C0691D100EBDA87 /* Build configuration list for PBXNativeTarget "PersonalInformationAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6681E7141C0691D100EBDA87 /* Debug */,
+				6681E7151C0691D100EBDA87 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6681E6E91C0691D100EBDA87 /* Project object */;
+}
